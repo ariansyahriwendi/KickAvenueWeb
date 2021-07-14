@@ -14,7 +14,7 @@ import io.cucumber.junit.CucumberOptions;
                 "pretty",
                 "json:target/cucumber.json",
         },
-        tags = "@CheckoutSneakers"
+        tags = "@Login"
 )
 
 public class TestRunner extends BaseSetUp{
