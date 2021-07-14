@@ -1,0 +1,262 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-14T04:37:55.637Z",
+        "line": 5,
+        "name": "User Want to Checkout",
+        "description": "",
+        "id": "checkout;user-want-to-checkout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35449000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am user",
+            "match": {
+              "location": "TestStep.LoginStep.iAmUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to checkout",
+            "match": {
+              "location": "TestStep.CheckoutStep.IWantToCheckout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3915000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click login",
+            "match": {
+              "location": "TestStep.LoginStep.IClickLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I input email \"ariansyahriwendi@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ariansyahriwendi@gmail.com\"",
+                  "offset": 14
+                }
+              ],
+              "location": "TestStep.LoginStep.IInputEmail(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I input password \"kickavenue1745\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kickavenue1745\"",
+                  "offset": 17
+                }
+              ],
+              "location": "TestStep.LoginStep.IInputPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5080000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click submit login",
+            "match": {
+              "location": "TestStep.LoginStep.IClickSubmitLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 595000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click sneakers",
+            "match": {
+              "location": "TestStep.CheckoutStep.IClickSneakers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click search",
+            "match": {
+              "location": "TestStep.CheckoutStep.IClickSearch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3148000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I search \"adidas nmd r1 black olive\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"adidas nmd r1 black olive\"",
+                  "offset": 9
+                }
+              ],
+              "location": "TestStep.CheckoutStep.ISearch(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3111000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click adidas nmd r1 black olive",
+            "match": {
+              "location": "TestStep.CheckoutStep.IClickAdidasNmdR1BlackOlive()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click brand new",
+            "match": {
+              "location": "TestStep.CheckoutStep.IClickBrandNew()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I select size",
+            "match": {
+              "location": "TestStep.CheckoutStep.ISelectSize()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2095000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click continue",
+            "match": {
+              "location": "TestStep.CheckoutStep.IClickContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click choose payment",
+            "match": {
+              "location": "TestStep.CheckoutStep.IClickChoosePayment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6069000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click bca installments",
+            "match": {
+              "location": "TestStep.CheckoutStep.IClickBCAInstallments()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click continue payment",
+            "match": {
+              "location": "TestStep.CheckoutStep.IClickContinuePayment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5006000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I checkout successfully",
+            "match": {
+              "location": "TestStep.CheckoutStep.ICheckoutSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Checkout"
+          },
+          {
+            "name": "@CheckoutSneakers"
+          }
+        ]
+      }
+    ],
+    "name": "Checkout",
+    "description": "",
+    "id": "checkout",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/BDD/Checkout.feature",
+    "tags": [
+      {
+        "name": "@Checkout",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
