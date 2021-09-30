@@ -12,8 +12,8 @@ Feature: Checkout
 
     And I click sneakers
     And I click search
-    And I search "adidas nmd r1 black olive"
-    And I click adidas nmd r1 black olive
+    And I search "seji high yin yang black"
+    And I select product
     And I click brand new
     And I select size
     And I click continue
